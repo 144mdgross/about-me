@@ -1,0 +1,174 @@
+/*css for personal site assignment. gschool. 01.06.17*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	background-image: url("http://assets.worldwildlife.org/photos/2329/images/hero_full/grasslands-hero.jpg?1345840648")
+}
+
+/*.title {
+	font-size: 30px !important;
+	background-color: #A6F8FF !important;
+}
+
+.heading {
+	background-color:  #A6F8FF !important;
+}*/
+
+#navbar {
+	text-align: center;
+}
+
+#navbar li {
+	display: inline;
+	border: none;
+	color: #3F0017;
+	padding: 20px;
+	border-radius: 100px 0px;
+	font-size: 3em;
+	font-weight: bold;
+	font-family: Raleway, Sans-serif;
+	box-shadow: 10px 10px 5px #888; 
+	margin: 0px;
+}
+
+#navbar li a {
+	text-decoration: none;
+	color: #3F0017;
+
+}
+
+#navbar li a:hover {
+	color: /*#790225*/#3F0017;
+	background-color: rgba(245, 245, 202, .6); 
+	border-radius: 100px 0px;
+	padding: 40px
+	margin: 0px;
+
+}
+ #navbar li a:active {
+ 	background-color: rgba(245, 245, 202, .3); 
+ }
+
+.title {
+	display: block;
+	color: #3F0017;
+	padding: 10px;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Raleway, Sans-serif; 
+    float: left;
+    margin: 0 1.5%;
+    width: 30%;
+    text-align: center;
+
+
+}
+
+/*add an "active class" to current link to let the user know where they're at on the page.*/
+p {
+	display: block;
+	font-family: Raleway, Sans-serif;
+	color: #3F0017;
+	font-weight: 400;
+	line-height: 1.5em;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: rgba(245, 245, 202, .6); 
+	float: left;
+	margin: 0 1.5%;
+	width: 30%;
+	clear: both;
+} 
+ 
+/*work on adding html and css to do a grid layout for photos next. (2/14/16). Portfoliohtml 
+already has the beginning of a table set-up with a class called "grid"*/
+
+a {
+	text-decoration: none;
+	color: #FF7373;
+}
+
+//* not using headings for now
+h1, h2, h3 {
+	font-family: Raleway, Sans-serif;
+	color: #c4deee;
+	font-weight: bold;
+	font-size: 2.4em;
+	text-align: center;
+	display: inline;
+	float: left;
+	width: 30%;
+	margin: 0 1.5%;
+} */
+
+/*img { 
+	box-shadow: 10px 10px 5px #888888;        
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	display: block;
+}*/
+
+.group:before, 
+.group.after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	clear: both;
+	/**zoom: 1;*/
+}
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    box-sizing: border-box;
+
+}
+
+.column-one {
+    order: 1;
+}
+.column-two {
+    order: 2;
+}
+.column-three {
+    order: 3;
+}
+
+footer{
+	margin-top: 2%;
+	padding: 10px;
+}
+
+.social {
+	text-decoration: none;
+}
+
+.foot{
+	height: 3%;
+	width: 3%;
+	margin: 3% 1.5% 0px 40%;
+}
+
+.feet{
+	height: 3%;
+	width: 3%;
+	margin: 3% 0px 0px 10%;
+}
+
+
